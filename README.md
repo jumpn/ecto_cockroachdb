@@ -25,3 +25,14 @@ def deps do
   ]
 end
 ```
+
+## Usage
+
+```elixir
+# In your application code
+defmodule Sample.Repo do
+  use Ecto.Repo,
+    otp_app: :my_app,
+    adapter: Ecto.Adapters.CockroachDB
+end
+```
