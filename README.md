@@ -11,8 +11,7 @@ The problem is CockroachDB does not support timestamp with precision unless it's
 This adaptor use the default precision for those types.
 It also disable the migration lock given locking is not supported by CockroachDB either.
 
-For more information, check this github issue: https://github.com/cockroachdb/cockroach/issues/32098
-
+For more information, check the [github issue](https://github.com/cockroachdb/cockroach/issues/32098)
 ## Installation
 
 The package can be installed
