@@ -28,6 +28,7 @@ defmodule EctoCockroachDB.MixProject do
   defp docs do
     [
       source_ref: "v#{@version}",
+      main: "readme",
       extras: ["README.md"]
     ]
   end
