@@ -28,13 +28,13 @@ defmodule EctoCockroachDB.MixProject do
   defp docs do
     [
       source_ref: "v#{@version}",
-      main: "readme"
+      extras: ["README.md"]
     ]
   end
 
   defp deps do
     [
-      {:ex_doc, "~> 0.20", only: :docs},
+      {:ex_doc, "~> 0.20", only: :dev},
       {:ecto, "~> 3.1"},
       {:ecto_sql, "~> 3.1"},
       {:postgrex, ">= 0.14.3"}
