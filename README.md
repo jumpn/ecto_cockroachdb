@@ -1,3 +1,11 @@
+# Deprecated / No longer needed !
+
+This fork is no longer necessary given CockroackDB 20.1+ supports timestamp with optional precision.
+You can now use the Postgresql Adaptor bundled with `ecto_sql`, the only special things you need to do is to disable migration locking in your repo config with:
+`migration_lock: nil`
+
+
+
 # CockroachDB Ecto Adaptor
 
 This is a very small fork of the official Postgresql Adaptor bundled with `ecto_sql`.
